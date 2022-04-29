@@ -12,7 +12,11 @@ export default ({
   siteData, // site metadata
 }) => {
   // ...apply enhancements for the site.
-  if (window) {
-    Vue.use(plugin);
+  try {
+    if (window) {
+      Vue.use(plugin);
+    }
+  } catch (error) {
+    console.log("SSR:", error.message);
   }
 };
