@@ -1,0 +1,22 @@
+{
+  "name": "Moja-global",
+  "version": "0.0.1",
+  "description": "test-lib",
+  "main": "index.js",
+  "authors": {
+    "name": "Kushagra",
+    "email": ""
+  },
+  "repository": "/Moja-global",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "my-vue-buttons-test-lib": "^0.0.1"
+  }
+}
